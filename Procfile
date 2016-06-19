@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* hello.Application
+web: java -Dserver.port=$PORT -jar  target/gs-rest-service-0.1.0.jar
